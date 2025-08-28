@@ -396,7 +396,10 @@ const Landing = () => {
     }
     setSending(true);
     const payload = {
-      ...form,
+      access_key: "d87b98ed-072d-48a3-aec6-ea147a9a1f36",              // ← deinen Web3Forms Access Key einsetzen
+      subject: "Neue Landing-Anmeldung",          // Betreff der E-Mail
+      from_name: "Baccarat Entertainment",        // Absendername in der E-Mail
+      ...form,                                    // Vorname, Nachname, Email, etc.
       lang,
       submittedAt: new Date().toISOString(),
       utm,
