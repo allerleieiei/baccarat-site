@@ -411,7 +411,9 @@ const Landing = () => {
       try {
         const res = await fetch(SITE.formEndpoint, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: { "Content-Type": "application/json",
+                   "Accept": "application/json",
+                   },
           body: JSON.stringify(payload),
         });
         posted = res.ok;
