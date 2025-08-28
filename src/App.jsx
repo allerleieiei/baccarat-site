@@ -411,16 +411,18 @@ const Landing = () => {
       try {
         const res = await fetch(SITE.formEndpoint, {
           method: "POST",
-          headers: { "Content-Type": "application/json",
-                   "Accept": "application/json",
-                   },
-          body: JSON.stringify(payload),
-        });
-        posted = res.ok;
-      } catch (err) {
-        posted = false;
-      }
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+          },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json().catch(() => ({}));
+      posted = (data && (data.success === true || res.ok));
+    } catch (err) {
+      posted = false;
     }
+  }
 
     try {
       const all = JSON.parse(localStorage.getItem("leads") || "[]");
