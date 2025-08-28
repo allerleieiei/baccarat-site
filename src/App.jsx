@@ -27,7 +27,7 @@ const SITE = {
   contactEmail: "info@baccarat.allerleieiei.com",
   whatsappLink: "https://wa.me/41792154270?text=Hoi%20Romano%2C%20ich%20komme%20vom%20QR-Code%20(Baccarat)%20und%20m%C3%B6chte%20starten.%20Mein%20Name%3A%20",
   telegramLink: "https://t.me/allerleieiei",
-  legalCompany: "Peak Focus Elite / Romano",
+  legalCompany: "Baccarat Entertainment by Allerleieiei",
   legalAddress: "Zürich, Schweiz",
 };
 
