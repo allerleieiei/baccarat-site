@@ -22,7 +22,7 @@ const SITE = {
 const I18N = {
   de: {
     badge: "Unverbindlich",
-    title: "Einfach eintragen.\nAuf persönliche Antwort warten.",
+    title: "Einfach eintragen.\nUnd auf persönliche Antwort warten.",
     subtitle:
       "Gib uns Vorname und dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram) an.\nWir melden uns persönlich bei dir",
     firstName: "Vorname",
@@ -42,7 +42,7 @@ const I18N = {
   },
   ch: {
     badge: "Unverbindlich",
-    title: "Eifach iiträge.\nUf persönliche Antwort warte.",
+    title: "Eifach iiträge.\nUnd uf persönlichi Antwort warte.",
     subtitle:
       "Gib ois diin Vorname und diin Kontakt (E‑Mail / Telefon / Telegram) aa.\nMir melded ois persönlich bi dir.",
     firstName: "Vorname",
