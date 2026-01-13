@@ -12,7 +12,7 @@ const WEB3FORMS_ACCESS_KEY = ""; // <-- your Web3Forms access key (optional)
 const SITE = {
   brand: "Baccarat Entertainment",
   subbrand: "by Romano",
-  contactEmail: "info@baccarat.allerleieiei.com",
+  contactEmail: "info@allerleieiei.com",
   whatsappLink:
     "https://wa.me/41792154270?text=Hoi%20Romano%2C%20ich%20komme%20vom%20QR-Code%20(Baccarat)%20und%20m%C3%B6chte%20starten.%20Mein%20Name%3A%20",
   telegramLink: "https://t.me/allerleieiei",
@@ -22,7 +22,7 @@ const SITE = {
 const I18N = {
   de: {
     badge: "Unverbindlich",
-    title: "Einfach eintragen. Auf persönliche Antwort warten.",
+    title: "Einfach eintragen.\nAuf persönliche Antwort warten.",
     subtitle:
       "Gib uns Vorname und dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram) an.\nWir melden uns persönlich bei dir",
     firstName: "Vorname",
