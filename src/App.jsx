@@ -37,7 +37,7 @@ const I18N = {
       "Bitte eine gültige E‑Mail, Telefonnummer oder Telegram‑Handle angeben.",
     consentError: "Bitte den Datenschutzhinweis bestätigen.",
     note:
-      "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18 – spiele verantwortungsbewusst.",
+      "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   ch: {
@@ -57,7 +57,7 @@ const I18N = {
       "Bitte gültigi E‑Mail, Tel‑Nummer oder Telegram‑Handle aagä.",
     consentError: "Bitte Dateschutz bestätige.",
     note:
-      "Hiiwiis: Unterhaltig, kei Finanzaalage. Kei Gewünn‑Garantie. Nur ab 18ni – spiel verantwortigsvoll.",
+      "Hiiwiis: Unterhaltig, kei Finanzaalag. Kei Gewünn‑Garantie. Teilnahm ab 18ni.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   en: {
@@ -75,7 +75,7 @@ const I18N = {
     contactError: "Please enter a valid email, phone or Telegram handle.",
     consentError: "Please accept the privacy note.",
     note:
-      "Note: Entertainment, not an investment. No profit guarantee. 18+ only – play responsibly.",
+      "Note: Entertainment, not an investment. No profit guarantee. 18+ only.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "Email" },
   },
 };
