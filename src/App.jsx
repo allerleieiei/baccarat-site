@@ -12,7 +12,7 @@ const WEB3FORMS_ACCESS_KEY = ""; // <-- your Web3Forms access key (optional)
 const SITE = {
   brand: "Baccarat Entertainment",
   subbrand: "by Romano",
-  contactEmail: "info@baccarat.allerleieiei.com",
+  contactEmail: "info@allerleieiei.com",
   whatsappLink:
     "https://wa.me/41792154270?text=Hoi%20Romano%2C%20ich%20komme%20vom%20QR-Code%20(Baccarat)%20und%20m%C3%B6chte%20starten.%20Mein%20Name%3A%20",
   telegramLink: "https://t.me/allerleieiei",
@@ -21,10 +21,11 @@ const SITE = {
 
 const I18N = {
   de: {
-    badge: "Unverbindlich · 2 Felder",
-    title: "Einfach eintragen. Persönlich antworten.",
+    badge: "Unverbindlich",
+    title: "Einfach eintragen. Auf persönliche Antwort warten.",
     subtitle:
-      "Vorname + dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram). Wir melden uns kurz & klar – ohne Spam.",
+      "Gib uns Vorname und dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram) an.
+	Wir melden uns persönlich bei dir",
     firstName: "Vorname",
     contact: "E‑Mail / Telefon / Telegram",
     consent:
@@ -37,27 +38,30 @@ const I18N = {
       "Bitte eine gültige E‑Mail, Telefonnummer oder Telegram‑Handle angeben.",
     consentError: "Bitte den Datenschutzhinweis bestätigen.",
     note:
-      "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18 – spiele verantwortungsbewusst.",
+      "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18
+spiele verantwortungsbewusst.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   ch: {
-    badge: "Unverbindlich · 2 Fälder",
-    title: "Eifach iitrage. Persönlich Antwort.",
+    badge: "Unverbindlich",
+    title: "Eifach iiträge. Uf persönliche Antwort warte.",
     subtitle:
-      "Vorname + din Kontakt (E‑Mail / Telefon / Telegram). Mir melded üüs churz & klar – ohni Spam.",
+      "Gib ois diin Vorname diin Kontakt (E‑Mail / Telefon / Telegram) qq.
+Mir melded ois persönlich bi dir.",
     firstName: "Vorname",
     contact: "E‑Mail / Telefon / Telegram",
     consent:
-      "Ich bi iiverstande, dass mini Aagabe für d'Kontakt gspeichert wärde.",
-    privacy: (email) => `Datenschutz: Löschig jedi Zyyt via ${email}.`,
-    submit: "Jetzt iitrage",
+      "Ich bi iiverstande, dass mini Aagabe für d'Kontaktuufnahm gspeicheret werded.",
+    privacy: (email) => `Dateschutz: Löschig jeder Ziit via ${email}.`,
+    submit: "Jetzt iiträge",
     successTitle: "Merci!",
-    successText: "Mir melded üüs bald über din gewünschte Kanal.",
+    successText: "Mir mälded ois bald über diin gwünschte Kanal.",
     contactError:
-      "Bitte gültigi E‑Mail, Tel‑Nummer oder Telegram‑Handle aage.",
-    consentError: "Bitte Datenschutz bestätige.",
+      "Bitte gültigi E‑Mail, Tel‑Nummer oder Telegram‑Handle aagä.",
+    consentError: "Bitte Dateschutz bestätige.",
     note:
-      "Hinwiis: Unterhaltig, kei Anlage. Kei Gewinn‑Garantie. Nur ab 18 – bitte verantwortigsvoll.",
+      "Hiiwiis: Unterhaltig, kei Finanzaalage. Kei Gewünn‑Garantie. Nur ab 18ni
+spiel verantwortigsvoll.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   en: {
