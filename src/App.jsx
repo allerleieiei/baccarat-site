@@ -241,7 +241,8 @@ export default function App() {
               <div className={`inline-flex items-center rounded-full px-4 py-2 border ${Gold.border} ${Gold.text} ${Gold.bgSoft}`}>
                 {t.badge}
               </div>
-              <h1 className={`text-4xl md:text-5xl font-bold leading-tight ${Gold.text}`}>
+              <h1 className={`text-4xl md:text-5xl font-bold leading-tight ${Gold.text}`}
+  style={{ whiteSpace: "pre-line" }}>
                 {t.title}
               </h1>
               <p className="text-gray-700 text-lg max-w-prose" style={{ whiteSpace: "pre-line" }}>
