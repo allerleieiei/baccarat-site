@@ -12,7 +12,7 @@ const WEB3FORMS_ACCESS_KEY = ""; // <-- your Web3Forms access key (optional)
 const SITE = {
   brand: "Baccarat Entertainment",
   subbrand: "by Romano",
-  contactEmail: "info@allerleieiei.com",
+  contactEmail: "info@baccarat.allerleieiei.com",
   whatsappLink:
     "https://wa.me/41792154270?text=Hoi%20Romano%2C%20ich%20komme%20vom%20QR-Code%20(Baccarat)%20und%20m%C3%B6chte%20starten.%20Mein%20Name%3A%20",
   telegramLink: "https://t.me/allerleieiei",
@@ -24,8 +24,7 @@ const I18N = {
     badge: "Unverbindlich",
     title: "Einfach eintragen. Auf persönliche Antwort warten.",
     subtitle:
-      "Gib uns Vorname und dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram) an.
-	Wir melden uns persönlich bei dir",
+      "Gib uns Vorname und dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram) an.\nWir melden uns persönlich bei dir",
     firstName: "Vorname",
     contact: "E‑Mail / Telefon / Telegram",
     consent:
@@ -38,16 +37,14 @@ const I18N = {
       "Bitte eine gültige E‑Mail, Telefonnummer oder Telegram‑Handle angeben.",
     consentError: "Bitte den Datenschutzhinweis bestätigen.",
     note:
-      "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18
-spiele verantwortungsbewusst.",
+      "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18 – spiele verantwortungsbewusst.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   ch: {
     badge: "Unverbindlich",
     title: "Eifach iiträge. Uf persönliche Antwort warte.",
     subtitle:
-      "Gib ois diin Vorname diin Kontakt (E‑Mail / Telefon / Telegram) qq.
-Mir melded ois persönlich bi dir.",
+      "Gib ois diin Vorname und diin Kontakt (E‑Mail / Telefon / Telegram) aa.\nMir melded ois persönlich bi dir.",
     firstName: "Vorname",
     contact: "E‑Mail / Telefon / Telegram",
     consent:
@@ -60,8 +57,7 @@ Mir melded ois persönlich bi dir.",
       "Bitte gültigi E‑Mail, Tel‑Nummer oder Telegram‑Handle aagä.",
     consentError: "Bitte Dateschutz bestätige.",
     note:
-      "Hiiwiis: Unterhaltig, kei Finanzaalage. Kei Gewünn‑Garantie. Nur ab 18ni
-spiel verantwortigsvoll.",
+      "Hiiwiis: Unterhaltig, kei Finanzaalage. Kei Gewünn‑Garantie. Nur ab 18ni – spiel verantwortigsvoll.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   en: {
@@ -111,7 +107,6 @@ const Gold = {
 };
 
 function TriangleCorner() {
-  // Triangle mosaic using layered linear-gradients; clipped to a top-right triangle.
   const style = {
     backgroundImage: `
       linear-gradient(135deg, rgba(155,123,47,0.35) 25%, transparent 25%),
@@ -184,9 +179,7 @@ export default function App() {
         body: JSON.stringify(payload),
       });
       await res.json().catch(() => ({}));
-    } catch {
-      // even if network fails, keep UX consistent and store locally
-    }
+    } catch {}
 
     try {
       const all = JSON.parse(localStorage.getItem("leads") || "[]");
@@ -251,7 +244,7 @@ export default function App() {
               <h1 className={`text-4xl md:text-5xl font-bold leading-tight ${Gold.text}`}>
                 {t.title}
               </h1>
-              <p className="text-gray-700 text-lg max-w-prose">
+              <p className="text-gray-700 text-lg max-w-prose" style={{ whiteSpace: "pre-line" }}>
                 {t.subtitle}
               </p>
 
