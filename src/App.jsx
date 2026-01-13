@@ -42,7 +42,7 @@ const I18N = {
   },
   ch: {
     badge: "Unverbindlich",
-    title: "Eifach iiträge. Uf persönliche Antwort warte.",
+    title: "Eifach iiträge.\nUf persönliche Antwort warte.",
     subtitle:
       "Gib ois diin Vorname und diin Kontakt (E‑Mail / Telefon / Telegram) aa.\nMir melded ois persönlich bi dir.",
     firstName: "Vorname",
@@ -62,7 +62,7 @@ const I18N = {
   },
   en: {
     badge: "No obligation · 2 fields",
-    title: "Sign up in seconds. Personal reply.",
+    title: "Sign up in seconds.\nPersonal reply.",
     subtitle:
       "First name + your preferred contact (Email / Phone / Telegram). Clear answers, no spam.",
     firstName: "First name",
