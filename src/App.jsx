@@ -21,9 +21,8 @@ const SITE = {
 
 const I18N = {
   de: {
-    badge: "500.- mehr im Monat...",
-    badge: "Unverbindliche Infos?",
-    title: "Einfach eintragen.\nUnd auf persönliche Antwort warten.",
+    badge: "500€ mehr im Monat?",
+    title: "Unverbindliche Infos?\nEinfach eintragen.",
     subtitle:
       "Gib uns Vorname und dein bevorzugter Kontakt (E‑Mail / Telefon / Telegram) an.\nWir melden uns persönlich bei dir",
     firstName: "Vorname",
