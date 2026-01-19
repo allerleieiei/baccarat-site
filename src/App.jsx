@@ -36,7 +36,6 @@ const I18N = {
     contactError:
       "Bitte eine gültige E‑Mail, Telefonnummer oder Telegram‑Handle angeben.",
     consentError: "Bitte den Datenschutzhinweis bestätigen.",
-    badge2: "500$ more per month?",
     note:
       "Hinweis: Unterhaltung, keine Finanzanlage. Keine Gewinn‑Garantie. Teilnahme ab 18.",
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
