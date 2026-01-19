@@ -251,7 +251,7 @@ export default function App() {
 
               <div className="grid gap-3">
                 <div className={`rounded-2xl border ${Gold.border} p-4 ${Gold.bgSoft}`}>
-                  <div className={`text-sm font-semibold ${Gold.text}`}>Schlicht. Seriös. Schnell.</div>
+                  <div className={`text-sm font-semibold ${Gold.text}`}>Simple. Reliable. Fast.</div>
                    </div>
                 <div className={`rounded-2xl border ${Gold.border} p-4 bg-white`}>
                   <div className="text-sm text-gray-700">
