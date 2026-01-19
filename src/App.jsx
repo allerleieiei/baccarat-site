@@ -41,7 +41,7 @@ const I18N = {
     ctas: { whatsapp: "WhatsApp", telegram: "Telegram", email: "E‑Mail" },
   },
   ch: {
-    badge: "500.- mee im Monat?",
+    badge: "500.- mee im Monet?",
     title: "Unverbindlichi Infos?\nEinfach iinträgen.",
     subtitle:
       "Gib ois diin Vorname und diin Kontakt (E‑Mail / Telefon / Telegram) aa.\nMir melded ois persönlich bi dir.",
